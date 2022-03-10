@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href = "css/styles.css"> 
+</head>
+<body>
+    <div id="top">
+       <img src="https://i.ibb.co/QK2tQV1/img.png" alt="img" width="40px" height="40px">
+        <h1>Tic-Tac-Toe</h1>
+    </div>
+
+    
+
+    <div id="buttons-container">
+        <button id="ai-player"> 1 Player</button>
+        <button id="2-players"> 2 Players</button>
+    </div>
+
+    <div id="container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div class="box">
+        <div class="box" id="block-3"></div class="box">
+        <div class="box" id="block-4"></div class="box">
+        <div class="box" id="block-5"></div class="box">
+        <div class="box" id="block-6"></div class="box">
+        <div class="box" id="block-7"></div class="box">
+        <div class="box" id="block-8"></div class="box">
+        <div class="box" id="block-9"></div class="box">
+    
+
+        <div id="scoreboard-container">
+            <h2>Scoreboard:</h2>
+            <span class="score-box">
+                <span id="x-scoreboard">X</span>:
+                <span id="scoreboard-1">0</span>
+            </span>
+
+            <span class="score-box">
+                <span id="o-scoreboard"></span>:
+                <span id="scoreboard-2">0</span>
+            </span>
+        </div>
+    </div>    
+    <div class="hide">
+        <div class="x">X</div>
+        <div class="o"></div>
+    </div>
+
+    <div id="message" class="hide">
+        <p>x</p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
